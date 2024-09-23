@@ -16,8 +16,7 @@ public class Exercicio11 {
     } else {
       System.out.println(num + " é um número positivo!!!");
     }
-
-
+    
     sc.close();
   }
 }
