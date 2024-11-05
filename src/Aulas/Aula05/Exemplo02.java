@@ -5,14 +5,13 @@ import java.util.Scanner;
 public class Exemplo02 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-
-    System.out.println("CALCULADORA SIMPLES");
-    System.out.println("1 - Soma");
-    System.out.println("2 - Subtração");
-    System.out.println("3 - Multiplicação");
-    System.out.println("4 - Divisão");
-    System.out.println("5 - Sair");
-    System.out.print("Escolha uma opção: ");
+        System.out.println("CALCULADORA SIMPLES");
+        System.out.println("1 - Soma");
+        System.out.println("2 - Subtração");
+        System.out.println("3 - Multiplicação");
+        System.out.println("4 - Divisão");
+        System.out.println("5 - Sair");
+        System.out.print("Escolha uma opção: ");
     int opcao = sc.nextInt();
 
     do{
